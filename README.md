@@ -1,0 +1,2 @@
+# PetShopAPI
+Автотесты API
