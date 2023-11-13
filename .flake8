@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 120
+max-complexity = 5
+extend-ignore = E501, E203, E405, E302, D100, D201, D202, D400, D400, D103, F401
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    allure-results,
+    .pytest-cache
