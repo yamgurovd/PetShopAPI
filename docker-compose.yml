@@ -1,0 +1,9 @@
+version: "3"
+
+
+services:
+  build: .
+  image: pytest_runner
+  container_name: pytest_runner_works
+  volumes:
+    - .: /test_project/
